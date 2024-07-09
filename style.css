@@ -20,7 +20,7 @@ body {
 
 form {
     height: 100%;
-    width: 270px;
+    width: 80%;
     padding: 30px;
     padding-right: 30px;
 }
@@ -35,7 +35,7 @@ p {
 
 #email, #password {
     height: 45px;
-    width: 250px;
+    width: 100%;
     border: none;
     outline: none;
     border: 1px solid lightgray;
