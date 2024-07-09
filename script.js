@@ -7,7 +7,7 @@ const buttons = document.querySelectorAll("button");
 
 
 const checkInput = () => {
-    if(emailInput.value!="" || passInput.value!="") {
+    if(emailInput.value!="" && passInput.value!="") {
         btnMain.classList.remove("hideMain");
         btnRight.classList.add("hideRight");
         btnLeft.classList.add("hideLeft");
